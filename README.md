@@ -1,19 +1,30 @@
 # 🚀 Machine Learning - Repositório de Estudos
 
-Repositório dedicado aos estudos e projetos de **Machine Learning**, contendo implementações, datasets e materiais didáticos.
+Repositório dedicado aos estudos e projetos de **Machine Learning**, contendo implementações.
 
 ## 📂 Estrutura do Repositório
 ```
 MachineLearning/
-├── RegressaoLinear/ # Implementações de Regressão Linear
-│ ├── exemplo_regressao.ipynb
-│ └── dataset_exemplo.csv
-├── Classificacao/ # Algoritmos de Classificação
-│ ├── KNN/
-│ └── SVM/
-├── Datasets/ # Conjuntos de dados
-├── PreProcessamento/ # Pré-processamento de dados
-└── README.md # Este arquivo
+├── 1-PreProcessamento/
+│   ├── Census/
+│   └── Credit/
+├── 2-Algoritmos/
+│   ├── Classificacao/
+│   │   ├── ArvoreDecisao/
+│   │   ├── KNN/
+│   │   │   ├── Census/
+│   │   │   └── Credit/
+│   │   ├── NaiveBayes/
+│   │   │   ├── Census/
+│   │   │   └── Credit/
+│   │   ├── RandomForest/
+│   │   │   ├── Census/
+│   │   │   └── Credit/
+│   │   ├── SVM/
+│   │   └── RedesNeurais/
+│   └── Regressao/
+│       └── Logistica/
+└── README.md
 ```
 
 ## 🛠️ Tecnologias
@@ -36,14 +47,16 @@ MachineLearning/
      cd MachineLearning
      ```
   2. Instale as dependências:
-    ```
-     pip install -r requirements.txt
-    ```
 
-  4. Execute os notebooks:
-    ```
+      ```
+      pip install -r requirements.tx
+      ```
+
+  3. Execute os notebooks:
+
+      ```
       jupyter notebook
-    ```
+      ```
 
 ## 🤝 Contribuição
 
@@ -52,12 +65,12 @@ MachineLearning/
   1. Crie um fork:
   
   2. Adicione suas alterações:
-```
-       git checkout -b minha-feature
-       git add .
-       git commit -m "feat: adiciona nova funcionalidade"
-       git push origin minha-feature
-``` 
+    ```
+   git checkout -b minha-feature
+   git add .
+   git commit -m "feat: adiciona nova funcionalidade"
+   git push origin minha-feature
+    ``` 
   3. Abra um Pull Request
 
 ## 📜 Licença
